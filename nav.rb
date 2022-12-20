@@ -1,4 +1,6 @@
-#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# !/usr/bin/env ruby
 
 # place this file somewhere in your $PATH (e.g. /usr/local/bin)
 # rename it from nav.rb to nav
@@ -19,4 +21,4 @@ if project_dir.nil?
 end
 
 FileUtils.chdir(project_dir)
-system "code ."
+system 'code .'
