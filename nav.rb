@@ -1,5 +1,10 @@
 #!/usr/bin/env ruby
 
+# place this file somewhere in your $PATH (e.g. /usr/local/bin)
+# rename it from nav.rb to nav
+# make it executable: chmod +x nav
+# use it: nav my_repo
+
 require 'pathname'
 require 'fileutils'
 
